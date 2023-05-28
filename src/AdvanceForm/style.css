@@ -1,0 +1,31 @@
+input::-webkit-input-placeholder {
+    color:white !important;
+    
+    
+}
+
+input{
+    opacity: 0.9;
+}
+label{
+    font-weight: 600;
+    font-size: 1.5rem;
+    transition: all 1s;
+}
+Label:hover{
+    transform: translateY(-5px);
+}
+
+.spinner{
+    animation: animate 2s linear infinite;
+    font-size: 1.5rem;
+}
+
+@keyframes animate {
+    0%{
+        transform: rotate(0);
+    }100%{
+        transform: rotate(360deg);
+    }
+    
+}
